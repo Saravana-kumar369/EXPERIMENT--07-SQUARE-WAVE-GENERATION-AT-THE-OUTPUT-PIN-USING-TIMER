@@ -205,22 +205,22 @@ static void MX_TIM2_Init(void)
 ## DUTY CYCLE AND FREQUENCY CALCULATION
 FOR PULSE AT 5000
 
-TON = 1.5*0.2=0.3ms
-TOFF= 1.5*0.2=0.3ms
-TOTAL TIME = 0.3+0.3=0.6ms
+TON = 1.5 * 0.2=0.3ms
+TOFF= 1.5 * 0.2=0.3ms
+TOTAL TIME = 0.3 + 0.3=0.6ms
 FREQUENCY = 1/(TOTAL TIME)=1/0.6ms=1.66 KHZ
 DUTY CYCLE=0.3/0.6=50%
 
 FOR PULSE AT 7500
-TON = 2.3*0.2=0.46ms
-TOFF=0.7*0.2=0.14ms
+TON = 2.3 * 0.2=0.46ms
+TOFF=0.7 * 0.2=0.14ms
 TOTAL TIME = 0.6ms
 FREQUENCY = 1/(TOTAL TIME)=1/0.6ms=1.66KHZ
 DUTY CYCLE=0.46/0.6=76.66%
 
 FOR PULSE AT 2500
 
-TON =0.7*0.2=0.14ms
+TON =0.7 * 0.2=0.14ms
 TOFF=2.3*0.2=0.46ms
 TOTAL TIME = 0.6ms
 FREQUENCY = 1/(TOTAL TIME)=1/0.6ms=1.66KHZ
@@ -228,7 +228,3 @@ DUTY CYCLE=0.14/0.6=23.33%
 
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 
-
-
-
-
